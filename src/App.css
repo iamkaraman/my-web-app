@@ -2,8 +2,26 @@
   background-color: #f2ebe2;
 }
 
-.greeting {
-  font-family: Monaco;
+.greeting-header {
+  font-family: "The Girl Next Door", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p {
+  margin-bottom: 2.5rem;
+}
+
+.intro-text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.button-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 
 img {
