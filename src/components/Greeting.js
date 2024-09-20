@@ -10,8 +10,8 @@ export default function Greeting() {
         </h1>
         <p className="fw-normal lh-sm fs-5">
           I am a recent graduate with over three years of experience in web
-          development, specialising in front-end technologies. If you have an
-          exiting project, feel free to connect with me on{" "}
+          development, specializing in front-end technologies. If you have an
+          exciting project, feel free to connect with me on{" "}
           <a
             class="link-dark link-offset-1"
             href="https://www.linkedin.com/in/kamila-karamanova/"
