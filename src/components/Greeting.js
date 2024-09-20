@@ -29,15 +29,13 @@ export default function Greeting() {
           </a>
           !
         </p>
-        <div className="justify-item-center">
-          <a
-            href="https://drive.google.com/file/d/1hzkqzpIbDbFFWx8C6hmKOxf71ENBhI8l/view?usp=sharing"
-            target="_blank"
-            className="btn btn-lg btn-outline-dark rounded-pill button-text"
-          >
-            Check my CV
-          </a>
-        </div>
+        <a
+          href="https://drive.google.com/file/d/1hzkqzpIbDbFFWx8C6hmKOxf71ENBhI8l/view?usp=sharing"
+          target="_blank"
+          className="btn btn-lg btn-outline-dark rounded-pill button-text"
+        >
+          Check my CV
+        </a>
       </div>
       <div className="col d-flex my-auto justify-content-center">
         <img src={helloImg} alt="hand-waving memoji" />
