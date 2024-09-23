@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div className="d-flex flex-column">
+    <div id="aboutMe" className="d-flex flex-column">
       <h1>About me</h1>
       <p>
         I hold a Dual Bachelor’s in Software Engineering (2018-2022) and a
