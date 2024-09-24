@@ -4,11 +4,11 @@ export default function Greeting() {
   return (
     <div className="d-flex vh-100">
       <div className="col my-auto ms-5">
-        <h2 className="display-2 fw-normal greeting-header">
+        <h2 className="display-2 fw-normal paragraph-header">
           Hello,
           <br /> I'm Kamila.
         </h2>
-        <p className="fw-normal lh-base fs-5 intro-text">
+        <p className="fw-normal lh-base fs-5 paragraph-text">
           I am a recent graduate with over three years of experience in web
           development, specializing in front-end technologies. If you have an
           exciting project, feel free to connect with me on{" "}

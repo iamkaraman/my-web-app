@@ -1,8 +1,12 @@
 export default function AboutMe() {
   return (
-    <div id="aboutMe" className="d-flex flex-column">
-      <h1>About me</h1>
-      <p>
+    <div
+      id="aboutMe"
+      className="container d-flex flex-column text-center justify-content-center"
+      style={{ height: "80vh" }}
+    >
+      <h1 className="paragraph-header">About me</h1>
+      <p className="fw-normal lh-base fs-5 paragraph-text">
         I hold a Dual Bachelor’s in Software Engineering (2018-2022) and a
         Master’s in Business Administration (2022-2023) from Staffordshire
         University & Asia Pacific University. With over three years of web

@@ -2,7 +2,7 @@
   background-color: #f4efea;
 }
 
-.greeting-header {
+.paragraph-header {
   font-family: "The Girl Next Door", system-ui;
   font-weight: 600;
   font-style: normal;
@@ -12,7 +12,7 @@ p {
   margin-bottom: 2.5rem;
 }
 
-.intro-text {
+.paragraph-text {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
