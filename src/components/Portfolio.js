@@ -16,7 +16,7 @@ export default function Portfolio() {
             className="rounded-top-5 img-fluid border-bottom h-50"
             alt="github image"
           />
-          <div className="card-body h-50">
+          <div className="card-body h-50 d-flex flex-column align-items-center">
             <h5 className="card-title paragraph-header">Github Explorer</h5>
             <p className="card-text paragraph-text">
               Github Explorer is a small web app. It's main function is to
@@ -25,8 +25,8 @@ export default function Portfolio() {
             <a
               href="https://github-explorer.iamkaraman.com/"
               target="_blank"
-              className="btn btn-primary rounded-pill fs-6 button-text p-2 m-1"
-              style={{ background: "#375AAB" }}
+              className="btn btn-primary rounded-pill fs-6 button-text p-2 px-3 m-1 mt-auto"
+              style={{ background: "#375AAB", width: "fit-content" }}
             >
               Check Web App
             </a>
@@ -41,7 +41,7 @@ export default function Portfolio() {
             className="rounded-top-5 img-fluid border-bottom h-50"
             alt="github image"
           />
-          <div className="card-body h-50">
+          <div className="card-body h-50 d-flex flex-column align-items-center">
             <h5 className="card-title paragraph-header">Tic Tac Toe Game</h5>
             <p className="card-text paragraph-text">
               Tic Tac Toe is a well-known simple game for two. Both players can
@@ -50,8 +50,8 @@ export default function Portfolio() {
             <a
               href="https://tic-tac-game.iamkaraman.com/"
               target="_blank"
-              className="btn btn-primary rounded-pill fs-6 button-text p-2 m-1"
-              style={{ background: "#375AAB" }}
+              className="btn btn-primary rounded-pill fs-6 button-text p-2 px-3 m-1 mt-auto"
+              style={{ background: "#375AAB", width: "fit-content" }}
             >
               Check Web App
             </a>
@@ -66,7 +66,7 @@ export default function Portfolio() {
             className="rounded-top-5 img-fluid border-bottom h-50"
             alt="github image"
           />
-          <div className="card-body h-50">
+          <div className="card-body h-50 d-flex flex-column align-items-center">
             <h5 className="card-title paragraph-header">
               Investment Calculator
             </h5>
@@ -77,8 +77,8 @@ export default function Portfolio() {
             <a
               href="https://investment-calculator.iamkaraman.com/"
               target="_blank"
-              className="btn btn-primary rounded-pill fs-6 button-text p-2 m-1"
-              style={{ background: "#375AAB" }}
+              className="btn btn-primary rounded-pill fs-6 button-text p-2 px-3 m-1 mt-auto"
+              style={{ background: "#375AAB", width: "fit-content" }}
             >
               Check Web App
             </a>
