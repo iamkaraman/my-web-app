@@ -1,6 +1,6 @@
-import linkedImg from "../assets/linkedIn-logo.png";
-import githubImg from "../assets/github-logo-removebg-preview.png";
-import emailImg from "../assets/email-logo-removebg-preview.png";
+import linkedImg from "../assets/linkedin-logo.png";
+import githubImg from "../assets/github-logo.png";
+import emailImg from "../assets/email-logo.png";
 
 export default function Contacts() {
   return (
