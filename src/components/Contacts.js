@@ -1,35 +1,17 @@
-import linkedImg from "../assets/linkedin-logo.png";
-import githubImg from "../assets/github-logo.png";
-import emailImg from "../assets/email-logo.png";
-
 export default function Contacts() {
   return (
     <div
       className="container d-flex justify-content-center flex-column text-center me-auto"
-      style={{ height: "50vh" }}
+      style={{ height: "40vh" }}
     >
-      <h1 className="paragraph-header">Contacts</h1>
+      <h1 className="paragraph-header">Interested in collaboration?</h1>
       <div className=" d-flex gap-3 justify-content-center">
         <a
-          className="link-dark link-offset-1"
-          href="https://www.linkedin.com/in/kamila-karamanova/"
-          target="_blank"
-        >
-          <img src={linkedImg} alt="linkedIn logo" style={{ width: "50px" }} />
-        </a>
-        <a
-          className="link-dark link-offset-1"
-          href="https://github.com/iamkaraman"
-          target="_blank"
-        >
-          <img src={githubImg} alt="linkedIn logo" style={{ width: "50px" }} />
-        </a>
-        <a
-          className="link-dark link-offset-1"
           href="mailto:karamanova.2000@gmail.com"
           target="_blank"
+          className="btn btn-lg btn-outline-dark rounded-pill button-text"
         >
-          <img src={emailImg} alt="linkedIn logo" style={{ width: "50px" }} />
+          Hit me up!
         </a>
       </div>
     </div>
