@@ -4,7 +4,10 @@ import calculatorImg from "../assets/investment-calculator-img.png";
 
 export default function Portfolio() {
   return (
-    <div className="container vh-100 d-flex justify-content-center flex-column text-center">
+    <div
+      id="portfolio"
+      className="container vh-100 d-flex justify-content-center flex-column text-center"
+    >
       <h1 className="paragraph-header">Portfolio</h1>
       <div className="card-group text-alignment d-flex gap-3">
         <div

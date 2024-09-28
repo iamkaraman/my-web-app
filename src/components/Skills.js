@@ -16,6 +16,7 @@ export default function Skills() {
   return (
     <>
       <div
+        id="skills"
         className="container d-flex flex-column justify-content-center align-items-center"
         style={{ height: "50vh" }}
       >

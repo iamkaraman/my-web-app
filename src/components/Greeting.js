@@ -2,7 +2,7 @@ import helloImg from "../assets/hello-img.png";
 
 export default function Greeting() {
   return (
-    <div className="d-flex vh-100">
+    <div className="d-flex vh-100" id="home">
       <div className="col my-auto ms-5">
         <h2 className="display-2 fw-normal paragraph-header">
           Hello,

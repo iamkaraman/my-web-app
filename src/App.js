@@ -11,11 +11,18 @@ function App() {
   return (
     <div className="container">
       <NavBar />
-      <Greeting />
-      <AboutMe />
-      <Skills />
-      <Portfolio />
-      <Contacts />
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#navbar"
+        data-bs-offset="0"
+        tabindex="0"
+      >
+        <Greeting />
+        <AboutMe />
+        <Skills />
+        <Portfolio />
+        <Contacts />
+      </div>
       <Footer />
     </div>
   );

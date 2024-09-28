@@ -1,6 +1,7 @@
 export default function Contacts() {
   return (
     <div
+      id="contacts"
       className="container d-flex justify-content-center flex-column text-center me-auto"
       style={{ height: "40vh" }}
     >
