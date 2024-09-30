@@ -3,7 +3,7 @@ export default function AboutMe() {
     <div
       id="aboutMe"
       className="container d-flex flex-column text-center justify-content-end"
-      style={{ height: "30vh" }}
+      style={{ height: "40vh" }}
     >
       <h1 className="paragraph-header">About me</h1>
       <p className="fw-normal lh-base fs-5 paragraph-text">
