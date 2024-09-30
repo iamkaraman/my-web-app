@@ -17,11 +17,6 @@ export default function NavBar() {
             </a>
           </li>
           <li className="nav-item p-1">
-            <a className="nav-link btn button-text" href="#skills">
-              Skills
-            </a>
-          </li>
-          <li className="nav-item p-1">
             <a className="nav-link btn button-text" href="#portfolio">
               Portfolio
             </a>
