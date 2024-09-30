@@ -1,3 +1,6 @@
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
 import Greeting from "./components/Greeting";
 import AboutMe from "./components/AboutMe";
@@ -13,9 +16,10 @@ function App() {
       <NavBar />
       <div
         data-bs-spy="scroll"
-        data-bs-target="#navbar"
+        data-bs-target="#customNavbar"
         data-bs-offset="0"
-        tabindex="0"
+        tabIndex="0"
+        style={{ position: "relative" }}
       >
         <Greeting />
         <AboutMe />
